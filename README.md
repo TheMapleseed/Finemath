@@ -229,7 +229,7 @@ Our evaluations show several key findings:
 
 1. FineMath-3+ outperforms the base InfiWebMath on GSM8k and MATH benchmarks
 2. FineMath-4+ demonstrates superior performance compared to both FineMath-3+ and InfiWebMath-4+ on GSM8k and MATH
-3. Combining the datasets (50% FineMath-3+ with 50% InfiWebMath-3+) yields approximately 50B tokens while matching the performance of InfiWebMath-3+
+3. Combining the datasets (50% FineMath-3+ with 50% InfiWebMath-3+) yields approximately 50B tokens while matching the performance of FineMath-3+
 4. Deduplicating the pages repeated between FineMath and InfiWebMath reduces performance compared to a non-deduplicated combination
 
 ## Dataset Schema
