@@ -211,7 +211,7 @@ Analysis revealed that FineWeb's C4 filter removes pages containing '{' characte
 The expanded corpus underwent a more fine-grained quality evaluation:
 
 Once again, we used LLama-3.1-70B-Instruct to score a sample of newly extracted pages on a 5-point scale (full prompt available in [here](prompt.txt)):
-We finetuned a new classifier [TODO: link] on these annotations and scored the entire corpus.
+We finetuned a new [classifier](https://huggingface.co/HuggingFaceTB/finemath-classifier) on these annotations and scored the entire corpus.
 After leaving only pages with a score of 3 or higher, and deduplicating the samples using simple single-band MinHash-LSH, we obtained FineMath-3+ with 34B tokens.
 
 The same classifier was applied to InfiMM-WebMath's text content, focusing more on reasoning rather than advanced mathematics.
