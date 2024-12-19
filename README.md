@@ -223,7 +223,7 @@ Following Qwen2.5-Math's approach, we removed samples with 13-gram overlaps agai
 
 ## Results and Performance
 
-<img src="assets/eval_bar.png" width="900"/>
+<img src="assets/eval_bar.png" width="600"/>
 
 Our evaluations show several key findings:
 
