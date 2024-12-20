@@ -284,3 +284,17 @@ There are several avenues for future work:
 - Improve mathematical notation extraction and preservation
 - Develop more sophisticated quality metrics
 - Create specialized subsets for different educational levels
+
+### Citation Information
+
+```
+@misc{lozhkov2024finemath,  
+    author       = { Lozhkov, Anton and Ben Allal, Loubna and Bakouch, Elie and von Werra, Leandro and Wolf, Thomas },  
+    title        = { FineMath: the Finest Collection of Mathematical Content }, 
+    year         = 2024,  
+    url          = { https://huggingface.co/datasets/HuggingFaceTB/finemath },  
+    doi          = { 10.57967/hf/3847 },
+	publisher    = { Hugging Face }
+}
+
+```
